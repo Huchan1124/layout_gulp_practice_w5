@@ -1,0 +1,274 @@
+header{
+    .nav {
+        // outline: 1px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: $pm-30 0 29.43px 0;
+        .logo {
+            width: 80px;
+            height: 48.57px;
+            background: url("../images/logo/logo.png") no-repeat;
+            p {
+                text-indent: 101%;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+        }
+        .nav-items {
+            display: flex;
+            flex-wrap: wrap;
+            li {
+                margin-right: $pm-64;
+
+            }
+            li:last-child {
+                margin-right: 0;
+            }
+      
+        }
+    }
+
+    @include pad {
+        .nav  {     
+         padding-left: 39px;
+         padding-right: 39px;
+     
+        }
+       .banner-bg {
+         h2 {
+             left:297.5px;
+             right:38.5px;
+             bottom: 373px;
+             font-size: 48px;
+             span {
+                 font-size: 20px;
+             }
+         }
+        }
+     
+     
+
+}
+
+
+@include mobile {
+        .nav {
+          flex-direction: column;
+          padding: 0 0;
+          .logo {
+              width: 48px;
+              height: 29.14px;
+              background-size: contain;
+              margin-top: 10px;
+              margin-bottom: 10.86px;
+          }
+        }
+       .nav .nav-items {
+          width: 100%;
+          text-align: center;
+    
+          }
+    
+        .nav .nav-items li {
+            width: 50%;
+            margin-right: 0 ;
+            border: 1px solid $secondary-color;
+            padding: $pm-8 50px;
+            font-size: 20px;
+           
+            }
+    
+        .banner-bg  {
+            background: url("../images/banner/banner-sm.png") no-repeat;
+            background-size: cover;
+            height: 394px;
+            h2 {
+                left: 72px;
+                right: 15px;
+                bottom: 163px;
+                font-size: 32px;
+            span {
+                font-size: 16px;
+    
+            }
+    
+            }
+         
+        }
+        
+          
+
+}
+
+    
+
+}
+
+.banner-bg {
+    background: url("../images/banner/banner.png") no-repeat center;
+    width: 100%;
+    height: 840px;
+    position: relative;
+    h2 {
+        // outline: 1px black solid;
+        text-align: right;
+        position: absolute;
+        left:579px;
+        right: 45px;
+        bottom:352px;
+    }
+    @include pad {
+      
+         h2 {
+             left:297.5px;
+             right:38.5px;
+             bottom: 373px;
+             font-size: 48px;
+             span {
+                 font-size: 20px;
+             }
+         }
+        
+     
+     
+
+}
+
+
+@include mobile {
+        
+            background: url("../images/banner/banner-sm.png") no-repeat;
+            background-size: cover;
+            height: 394px;
+            h2 {
+                left: 72px;
+                right: 15px;
+                bottom: 163px;
+                font-size: 32px;
+            span {
+                font-size: 16px;
+    
+            }
+    
+            }
+         
+        
+        
+          
+
+}
+
+}
+
+
+
+
+// feature 
+.feature {
+    padding-top: $pm-60;
+    padding-bottom: $pm-80;
+   
+    .feature-title {
+        padding-bottom: 48.33px;
+    }
+    .feature-items {
+        // outline: 1px solid red;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      
+ 
+        li {
+            // outline: 1px solid red;
+            width: 255px;
+            h3 {
+                margin-top: 24.08px;
+                margin-bottom: $pm-8;
+            }
+            p {
+                text-align: left;
+            }
+        }
+        
+        img {
+            width: 83.33px;
+            height: 83.33px;
+        }
+    
+    }
+
+    @include pad {
+      
+        li {
+          
+            width: 50%;
+            margin-right: 5%;
+            margin-bottom: 5%;
+           
+        }
+        
+    }
+
+    @include mobile {
+        h2 {
+            font-size: 24px;
+            
+        }
+        
+        li {
+            width: 100%;
+            margin-bottom: 10%;
+
+           
+            
+           
+        }
+        
+    }
+        
+
+}
+
+// classical-glasses
+.classical-glasses {
+    padding-top: $pm-60;
+    padding-bottom: $pm-80;
+    h2 {
+        margin-bottom: $pm-40;
+    }
+    .classical-glasses-items {
+        display: flex;
+        flex-wrap: wrap;
+       
+        li {
+            display: flex;
+            align-items: center;
+            // outline: black 1px solid;
+            width: 100%;
+            margin-bottom: $pm-32;
+            img {
+                width: 57%;
+            }
+            h3 {
+                width: 43%;
+                display: flex;
+                align-items: center;
+                padding-left: $pm-32;
+            }
+
+        }
+
+        li:nth-child(2) {
+            flex-direction: row-reverse;
+        }
+        
+        
+    }
+  
+}
+
+    
+  
+ 
