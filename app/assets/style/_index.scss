@@ -4,6 +4,14 @@
 
 .asideNav {
     height: 100vh;
+    .list-group-item:not(.logo) {
+        cursor: pointer;
+        transition: all .6s ease;
+        &:hover{
+            color: $primary;
+            border-left: 4px solid $primary;
+        }
+    }
 }
 
 
@@ -16,7 +24,18 @@
 }
 
 
+.navTop {
+    .list-group-item:nth-child(2){
+        cursor: pointer;
+        &:hover {
+            color: $primary;
+        }
+    }
+}
+
 .list-group-item {
     border: 1px solid rgba(255, 255, 255, 0);
     line-height: 24px; //讓各list-group-item 行高一致
 }
+
+
