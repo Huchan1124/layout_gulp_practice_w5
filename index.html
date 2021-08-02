@@ -64,8 +64,6 @@
 </html>
 
    
-    
-   
     <main class="w-77 p-5">
     <nav class="navTop">
       <ul class=" d-flex justify-content-between list-unstyled">
@@ -177,14 +175,24 @@
         </tr>
       </tbody>
     </table>
-    <%- include('pagination.ejs') %>
+    <footer class="d-flex justify-content-end align-items-center">
+        <ul class="pagination list-unstyled ">
+          <li class="page-item ">
+            <a class="page-link" href="#" tabindex="-1" aria-disabled="true"><i class="bi bi-chevron-left"></i></a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item active" aria-current="page">
+            <a class="page-link" href="#">2</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#"><i class="bi bi-chevron-right"></i></a>
+          </li>
+        </ul>
+      </footer>
 
   </main>
     
-
-
-
-
 
 
 
