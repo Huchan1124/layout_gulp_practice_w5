@@ -4,7 +4,6 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -9299,44 +9298,4 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-.replace-text {
-  text-indent: 101%;
-  overflow: hidden;
-  white-space: nowrap; }
-
-body {
-  font-family: 'Lato', serif; }
-
-ul {
-  margin: 0; }
-
-.logo {
-  background: url("../images/logo-ANSWER.svg") no-repeat; }
-
-.asideNav {
-  height: 100vh; }
-  .asideNav .list-group-item:not(.logo) {
-    cursor: pointer;
-    -webkit-transition: all .6s ease;
-    -o-transition: all .6s ease;
-    transition: all .6s ease; }
-    .asideNav .list-group-item:not(.logo):hover {
-      color: #198754;
-      border-left: 4px solid #198754; }
-
-.infoCard {
-  line-height: 0; }
-  .infoCard .infoCard__img {
-    width: 40px;
-    height: 40px; }
-
-.navTop .list-group-item:nth-child(2) {
-  cursor: pointer; }
-  .navTop .list-group-item:nth-child(2):hover {
-    color: #198754; }
-
-.list-group-item {
-  border: 1px solid rgba(255, 255, 255, 0);
-  line-height: 24px; }
-
-/*# sourceMappingURL=all.css.map */
+/*# sourceMappingURL=bootstrap.css.map */
