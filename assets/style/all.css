@@ -1,2 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+.replace-text {
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap; }
+
+body {
+  font-family: 'Lato', serif; }
+
+ul {
+  margin: 0; }
+
+.w-23 {
+  width: 23%; }
+
+.w-40 {
+  width: 40%; }
+
+.w-77 {
+  width: 77%; }
+
+.h-40 {
+  width: 40%; }
+
+.fs-7 {
+  font-size: 0.875rem; }
+
+.p-4-2 {
+  padding: 2rem; }
+
+.logo {
+  background: url("../images/logo-ANSWER.svg") no-repeat; }
+
+.asideNav {
+  height: 100vh; }
+
+.infoCard {
+  line-height: 0; }
+  .infoCard .infoCard__img {
+    width: 40px;
+    height: 40px; }
+
+.list-group-item {
+  border: 1px solid rgba(255, 255, 255, 0);
+  line-height: 24px; }
 
 /*# sourceMappingURL=all.css.map */
