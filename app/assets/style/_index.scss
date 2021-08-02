@@ -1,0 +1,22 @@
+.logo {
+    background: url("../images/logo-ANSWER.svg") no-repeat;
+}
+
+.asideNav {
+    height: 100vh;
+}
+
+
+.infoCard {
+    line-height: 0;
+    .infoCard__img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
+.list-group-item {
+    border: 1px solid rgba(255, 255, 255, 0);
+    line-height: 24px; //讓各list-group-item 行高一致
+}
